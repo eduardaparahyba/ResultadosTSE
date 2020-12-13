@@ -4,11 +4,14 @@ from appium import webdriver
 
 @pytest.fixture(scope='class')
 def test_setup():
+    """
+    Configuração de conexão entre Appium e o DUT
+    :return: conexão
+    """
     desired_cap = {
         'platformName': 'Android',
-        'deviceName': '192.168.85.101:5555',
-        "appPackage": "br.jus.tse.resultados",
-        "appActivity": "br.jus.tse.resultados.MainActivity",
+        'deviceName': '192.168.220.105:5555',
+        "app":  'C:\\Users\\duda_\\Documents\\Especialização\\Automação Mobile\\apks\\br.jus.tse.resultado.apk',
         'autoGrantPermissions': True
     }
 

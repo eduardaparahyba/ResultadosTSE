@@ -79,3 +79,8 @@ Após a execução, um arquivo denominado "report.html" será gerado no caminho 
 Além disso, um link será exibido após a execução, para que você possa acessá-lo diretamente a partir dele.
 
 ___
+
+🎬 **Video da execução**
+
+Acessando o vídeo abaixo é possível vizualizar a execução dos testes:
+https://drive.google.com/file/d/15NTlXmiYW_hkrDn7yQQi0xtFuuTEJmzK/view?usp=sharing
